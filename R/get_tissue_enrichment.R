@@ -8,7 +8,6 @@ get_tissue_enrichment <- function(variants,
   # for testing: # ratio_cutoff = 1 ; p_value_cutoff = 0.05
   
   cat("Performing enrichment analysis to find enriched celltype(s).\n")
-  # Fisher enrichment test
   # Intersect SNPs with DHS sites and compute the mean H3K27ac specificity rank of the intersected DHS.
   # Assuming SNPs overlap sites randomly, compute significance of mean rank of sites where SNPs overlap based on deivation from uniform distribution.
   
